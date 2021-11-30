@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="">
+    <group android:checkableBehavior="none">
+        <item
+            android:visible="true"
+            android:id="@+id/mn_dwr_data_user"
+            android:icon="@drawable/ic_data_pengguna"
+            android:title="Data Pengguna"/>
+        <item
+            android:visible="true"
+            android:id="@+id/mn_dwr_my_ec"
+            android:icon="@drawable/ic_my_extracurricular"
+            android:title="My Extracurricular"/>
+        <item
+            android:visible="true"
+            android:id="@+id/mn_dwr_notif"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifikasi"/>
+        <item
+            android:visible="false"
+            android:id="@+id/mn_dwr_register"
+            android:icon="@drawable/ic_register"
+            android:title="Register"/>
+        <item
+            android:visible="false"
+            android:id="@+id/mn_dwr_login"
+            android:icon="@drawable/ic_log_in"
+            android:title="Log In" />
+    </group>
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/mn_dwr_about"
+                android:icon="@drawable/ic_about_app"
+                android:title="Tentang Aplikasi" />
+            <item
+                android:visible="true"
+                android:id="@+id/mn_dwr_logout"
+                android:icon="@drawable/ic_log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>

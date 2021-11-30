@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7627</color>
+    <color name="colorPrimaryDark">#cc5e1f</color>
+    <color name="colorAccent">#cc5e1f</color>
+    <color name="colorButton">#ffe227</color>
+    <color name="colorBackgroundApp">#dbdad6</color>
+    <color name="colorBackgroundEditText">#ededeb</color>
+    <color name="colorButtonText">#cc5e1f</color>
+    <color name="colorBackgroundWidget">#ffffff</color>
+    <color name="colorTitleBar">#ffffff</color>
+    <color name="colorContentText">#000000</color>
+    <color name="colorVeryRed">#b71c1c</color>
+    <color name="softOrange">#FFB667</color>
+
+
+    <color name="materialDarkRed">#9b0000</color>
+    <color name="materialDarkGreen">#009624</color>
+    <color name="materialDarkYellow">#c7a500</color>
+    <color name="materialBrightYellow">#ffff00</color>
+</resources>
