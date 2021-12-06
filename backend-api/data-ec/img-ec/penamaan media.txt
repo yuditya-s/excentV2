@@ -1,0 +1,2 @@
+Format penamaan media :
+"ec/ev" + (id_ec)/(id_ev) + "_" + (id_media) + ".jpeg"
