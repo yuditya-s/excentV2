@@ -1,4 +1,4 @@
-# excentV2
+# EXCENT (versi 2)
 Aplikasi Ekstrakurikuler SMA/SMK pada platform Android
 Feature:
 0) Mengatur akun (sign in, register, sign out)
