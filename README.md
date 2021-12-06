@@ -1,6 +1,6 @@
 # EXCENT (versi 2)
-Aplikasi Ekstrakurikuler SMA/SMK pada platform Android
-Feature:
+Aplikasi Ekstrakurikuler SMA/SMK pada platform Android</br>
+Feature:</br>
 0) Mengatur akun (sign in, register, sign out)
 1) Melihat, membuat*, mengubah*, menghapus* informasi kegiatan ekstrakurikuler (teks, gambar, video)
 2) Mendaftar**, menyetujui pendaftaran* (penambahan anggota) dan mengajukan keluar** dari ekstrakurikuler
