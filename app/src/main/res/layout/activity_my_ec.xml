@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundApp"
+    tools:context=".Activity.MyEcActivity">
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/tv_petunjuk"
+        android:text="Daftar Ekstrakurikuler yang Anda Buat:"
+        android:textColor="@color/colorContentText"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/no_ec_layout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/no_ec_img"
+            android:src="@drawable/no_ajuan"
+            android:layout_width="280dp"
+            android:layout_height="150dp"/>
+        <TextView
+            android:alpha="0.8"
+            android:id="@+id/no_ec_text"
+            android:text="Tidak Ada Ekstrakurikuler"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_my_ec"
+        android:padding="8dp"
+        android:layout_below="@id/tv_petunjuk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

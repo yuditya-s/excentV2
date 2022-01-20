@@ -15,6 +15,11 @@
             android:title="My Extracurricular"/>
         <item
             android:visible="true"
+            android:id="@+id/mn_dwr_event"
+            android:icon="@drawable/ic_upcoming_event"
+            android:title="Upcoming Event" />
+        <item
+            android:visible="true"
             android:id="@+id/mn_dwr_notif"
             android:icon="@drawable/ic_notifications"
             android:title="Notifikasi"/>

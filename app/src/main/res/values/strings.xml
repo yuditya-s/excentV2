@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Excent V2</string>
+    <string name="app_name">Excent v2</string>
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Siswa</item>
+        <item>Guru</item>
+    </string-array>
+
+    <string name="base_url">http://yuditya-excent.my.id/excent/</string>
+    <string name="base_url_local0">http://10.0.2.2/excentv2/</string>
+    <string name="base_url_local">http://192.168.43.251/excentv2/</string>
+
+    <string name="app_desc">"Aplikasi Ekstrakurikuler SMK N 1 Sedayu"</string>
+    <string name="example_ec_desc">Ekstrakurikuler adalah kegiatan non-pelajaran formal yang dilakukan peserta didik sekolah atau universitas, umumnya di luar jam belajar kurikulum standar. Kegiatan-kegiatan ini ada pada setiap jenjang pendidikan dari sekolah dasar sampai universitas. Kegiatan ekstrakurikuler ditujukan agar siswa dapat mengembangkan kepribadian, bakat, dan kemampuannya di berbagai bidang di luar bidang akademik</string>
+    <string name="ApiKey">AIzaSyBsHmdLvdapShztomxoTMCZjYoW2ujAGII</string>
+
+    <string-array name="adm_spinner_list_item">
+        <item>Daftar</item>
+        <item>Keluar</item>
+    </string-array>
 </resources>
